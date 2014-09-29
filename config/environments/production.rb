@@ -93,5 +93,4 @@ config.paperclip_defaults = {
     :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
   }
 }
-RAILS_ENV=production bundle exec rake assets:precompile
 end
